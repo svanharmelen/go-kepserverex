@@ -246,6 +246,7 @@ type SiemensS5AS511DeviceOptions struct {
 	Name                       string              `json:"common.ALLTYPES_NAME,omitempty"`
 	Description                string              `json:"common.ALLTYPES_DESCRIPTION,omitempty"`
 	UniqueID                   int64               `json:"servermain.DEVICE_UNIQUE_ID,omitempty"`
+	Driver                     string              `json:"servermain.MULTIPLE_TYPES_DEVICE_DRIVER"`
 	Model                      SiemensS5AS511Model `json:"servermain.DEVICE_MODEL,omitempty"`
 	IDFormat                   IDFormat            `json:"servermain.DEVICE_ID_FORMAT,omitempty"`
 	IDString                   string              `json:"servermain.DEVICE_ID_STRING,omitempty"`
