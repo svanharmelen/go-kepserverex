@@ -220,7 +220,7 @@ type SiemensS5AS511Device struct {
 	Driver                     string              `json:"servermain.MULTIPLE_TYPES_DEVICE_DRIVER"`
 	Model                      SiemensS5AS511Model `json:"servermain.DEVICE_MODEL"`
 	IDFormat                   IDFormat            `json:"servermain.DEVICE_ID_FORMAT"`
-	DeviceID                   string              `json:"servermain.DEVICE_ID_STRING"`
+	IDString                   string              `json:"servermain.DEVICE_ID_STRING"`
 	IDHexadecimal              int                 `json:"servermain.DEVICE_ID_HEXADECIMAL"`
 	IDDecimal                  int                 `json:"servermain.DEVICE_ID_DECIMAL"`
 	IDOctal                    int                 `json:"servermain.DEVICE_ID_OCTAL"`
@@ -248,7 +248,7 @@ type SiemensS5AS511DeviceOptions struct {
 	UniqueID                   int64               `json:"servermain.DEVICE_UNIQUE_ID,omitempty"`
 	Model                      SiemensS5AS511Model `json:"servermain.DEVICE_MODEL,omitempty"`
 	IDFormat                   IDFormat            `json:"servermain.DEVICE_ID_FORMAT,omitempty"`
-	DeviceID                   string              `json:"servermain.DEVICE_ID_STRING,omitempty"`
+	IDString                   string              `json:"servermain.DEVICE_ID_STRING,omitempty"`
 	IDHexadecimal              int                 `json:"servermain.DEVICE_ID_HEXADECIMAL,omitempty"`
 	IDDecimal                  int                 `json:"servermain.DEVICE_ID_DECIMAL,omitempty"`
 	IDOctal                    int                 `json:"servermain.DEVICE_ID_OCTAL,omitempty"`
